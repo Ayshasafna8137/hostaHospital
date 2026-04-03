@@ -1,0 +1,17 @@
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,jsx}"
+  ],
+  theme: {
+    extend: {
+      colors: {
+        border: "hsl(var(--border))",
+        background: "hsl(var(--background))",
+        foreground: "hsl(var(--foreground))",
+        ring: "hsl(var(--ring))",
+      },
+    },
+  },
+  plugins: [],
+}
